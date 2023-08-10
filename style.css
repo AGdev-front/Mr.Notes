@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background-color: rgb(148, 110, 54);
+    color: rgb(177, 177, 177);
+    background-image: url(https://previews.123rf.com/images/zagory/zagory1803/zagory180300046/97057338-patr%C3%B3n-sin-fisuras-sobre-el-tema-de-la-limpieza-y-art%C3%ADculos-para-el-hogar-y-productos-de-limpieza.jpg);
+    background-size: 15% auto;
+  }
+  
+  h1 {
+    text-align: center;
+    color: rgb(90, 68, 34);
+  }
+  
+  .container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 30px;
+    border-color: black;
+    border-radius: 15px;
+  }
+  
+  .search {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  
+  form {
+    display: flex;
+  }
+  
+  input {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 15px 10px;
+    outline: none;
+    width: 400px;
+  }
+  
+  .li-container {
+    background-color: white;
+    width: 100%;
+    color: rgb(90, 68, 34);
+    margin-top: 20px;
+  }
+  
+  ul {
+    padding: 0;
+  }
+  
+  li {
+    list-style: none;
+    background-color: lightgray;
+    border-radius: 10px;
+    margin-top: 15px;
+    display: flex;
+  }
+  
+  li p {
+    margin: 0;
+    padding: 15px;
+    width: 100%;
+  }
+  
+  .button-delete {
+    margin-left: auto;
+    border: none;
+    background-color: #cf1642;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    outline: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 10%;
+    font-size: 1.2em;
+  }
+  
+  .button-delete:hover {
+    cursor: pointer;
+    background-color: rgb(255, 0, 0);
+  }
+  
+  .button-add {
+    padding: 5px 15px;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    font-family: fantasy;
+    background-color: rgb(148, 110, 54);
+    font-size: 1.4rem;
+    outline: none;
+  }
+  
+  .button-add:hover {
+    cursor: pointer;
+    background-color: rgb(109, 82, 39);
+  }
+  
+  .empty {
+    color: rgb(90, 68, 34);
+  }
